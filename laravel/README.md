@@ -1,62 +1,66 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
+## About Laravel
 
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-#  WRATS
-Version 0.1
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Initial Discovery project: RS21 was contracted by the New Mexico Office of the State Engineer (OSE) to conduct a detailed discovery and requirements gathering process to identify opportunities for improvement for a modernized Water Rights Adjudication Tracking System (WRATS) application. 
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-RS21 conducted a thorough discovery research analysis, which identified critical needs for OSE and the 25-year-old WRATS application in the areas of modernization, data management, data and applications integrations, document generation and maintenance, improvements to analysis functions, and updated business processes.
+## Learning Laravel
 
-This app is Phase 2 of the project: Implementation.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-*  Laravel 11
-*  Laravel Breeze
-*  Alpine JS
-*  Livewire
-*  Bootstrap
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-Welcome to the Team!
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Important Project Links
+## Laravel Sponsors
 
-- **[RS21 project Wiki](https://resilientsolutions21.sharepoint.com/sites/RS21/Shared%20Documents/Forms/AllItems.aspx)** 
-- **[OSE Sharepoint ](https://rtsolutions1.sharepoint.com/sites/OSE/Shared%20Documents/Forms/AllItems.aspx)** 
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
+### Premium Partners
 
-##  Software Development Methodology
-Maintainability is king. The development team at OSE have been maintainng the predecessor to this app for 25 years. We will build this project assuming that it will have a similar life cycle. 
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
 
-Laravel has a major version update every 1-2 years, and PHP has a major version update every year, and deprecates (stops security updates) the PHP version that is 5 years old.  Because laravel versions have PHP dependencies, we can anticipate OSE having to do a major maintenance update (update PHP syntax to newest version, and Laravel to latest version) at least once every 5 years. 
+## Contributing
 
-That can be a big lift in both time and risk. Think hundreds of hours. There is a product called **[Laravel Shift](https://laravelshift.com/)** that will automate a lot of this process, but to leverage it, and similar tools, we have to follow Laravel best practices and be very lean on thrid party dependant libraries.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-### Git Strategy
-Because we are going to have specific user acceptance testing events on discrete deliverables, we will use the **[Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)** work flow, so we can easily segregate and deploy specific release candidates. 
+## Code of Conduct
 
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-### Development Guidelines 
-We will be using these for our guidelines on the Peer Review process.
-- **[OSE Development Standards ](https://rtsolutions1.sharepoint.com/:w:/r/sites/OSE/Shared%20Documents/2023_08_03_OSE%20Development_Standards%20-%20Current%20CO%20OSE.docx?d=w5a3b7aa8e816448586d26e5aeab8f72e&csf=1&web=1&e=L2kgWH)**   
-- **[OWASP top 10 Web Software Security Standards ](https://owasp.org/www-project-top-ten/)**   
-- **[Laravel Best Practices ](https://github.com/alexeymezenin/laravel-best-practices)**   
+## Security Vulnerabilities
 
-All PHP code should be formatted to the PSR-4 standard. We have a tool that you should **[Pint](https://laravel.com/docs/11.x/pint)** run pre-commit to massage your source code. Usage `./vendor/bin/pint -v`.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-I would mention SOLID, DRY and KIS here too, but they are covered in the OSE Development standards.
+## License
 
-
-
-### Training Resources
-To keep everyone on the same page and optimize on-boarding of new engineers. We will recommend content on the Laracasts platform as it is the defacto training tool for Laravel (referenced on the laravel.com site). This content does require a subscription, but in our opinion it is worth it. 
-- **[PHP Introduction](https://laracasts.com/topics/php)**
-- **[Laravel Introduction](https://laracasts.com/series/30-days-to-learn-laravel-11)**
-
-
-
-
-
-
-
-
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

@@ -31,14 +31,6 @@ class UserFactory extends Factory
             'remember_token' => Str::random(10),
         ];
     }
-       public function myLogin(): static
-    {
-        return $this->state(fn (array $attributes) => [
-            'name' => 'Monica Alvarez',
-            'email' => 'monica@rs21.io',
-            'password' => Hash::make('password'),
-        ]);
-    }
 
     /**
      * Indicate that the model's email address should be unverified.
