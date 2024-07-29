@@ -1,0 +1,15 @@
+created:
+    - app/Http/Controllers/UserSettingController.php
+    - tests/Feature/Http/Controllers/UserSettingControllerTest.php
+    - app/Http/Requests/UserSettingStoreRequest.php
+    - app/Http/Requests/UserSettingUpdateRequest.php
+    - resources/views/userSetting/index.blade.php
+    - resources/views/userSetting/create.blade.php
+    - resources/views/userSetting/show.blade.php
+    - resources/views/userSetting/edit.blade.php
+updated:
+    - routes/web.php
+models:
+    Action: { action_code: 'string:5', action_description: 'string:64', id: increments, created_at: 'timestamp nullable default:null', created_by: 'string:64', updated_at: 'timestamp nullable default:null', updated_by: 'string:64' }
+    Associated: { created_at: 'timestamp nullable default:null', created_by: 'string:64', updated_at: 'timestamp nullable default:null', updated_by: 'string:64', water_right_status_description: 'string:250', id: increments }
+    AuditTrail: { id: increments, created_at: 'timestamp nullable default:null', created_by: 'string:64', operation_type: 'string:16', row_values: mediumText, source_id: 'integer:11 index unsigned', source_name: 'string:64', updated_at: 'timestamp nullable default:null', updated_by: 'string:64' }
